@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+  <body>
+
+    <!--  M E N U    D E    N A V E G A C I O N  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!-- navbar-dark-mantiene el color que trae el navbar para las sections -->
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Templune</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--ms-auto - margin left, empuja el elemento hacia la derecha con un margen automatico -->
+              <li class="nav-item me-3 text-secundary">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link">Servicios</a> <!-- disabled - el texto se difuminado -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-light">Contáctanos</a> <!-- disabled - el texto se difuminado -->
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <!--  H  O  M  E   -->
+    <section class="py-5">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-lg-6 align-self-center"><!-- dflex la padre y  ,para alinear verticalmente-->
+              <h1 class="mb-4">Somos expertos en la <span class="text-primary fw-bold">creación de Web Apps</span></h1><!-- span - selecciona una parte determinada para darle estilo -->
+              <p class="lead text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores obcaecati hic, placeat aliquam nihil accusamus totam sequi fuga aperiam ipsum natus.</p>
+              <div class="mb-5">
+                <a href="#" class="btn btn-primary me-2 mb-3 shadow">Agenda una demo</a>
+                <a href="#" class="btn btn-secondary mb-3 shadow">Ver portafolio</a>
+                <ul class="list-inline">
+                  <li class="list-inline-item me-4"><i class="icon ion-md-checkmark-circle-outline lead text-primary me-2"></i> React</li><!-- list-inline-item - para que este en forma horizontal -->
+                  <li class="list-inline-item me-4"><i class="icon ion-md-checkmark-circle-outline lead text-primary me-2"></i> Node JS</li>
+                  <li class="list-inline-item"><i class="icon ion-md-checkmark-circle-outline lead text-primary me-2"></i> Microsoft Azure</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="images/iphone.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+
+   <!--    P  L  A  N  E  S    -->
+    <section  class="bg-image-x d-flex py-5">
+      <div class="container align-self-center">
+        <div class="w-75 text-center mx-auto mb-5"><!-- mx-auto - para que tenga un margen auto a los lados y se centre -->
+          <h2>Planes a la medida para <span class="text-primary fw-bold">todas las empresas</span></h2>
+          <p class="lead text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quidem alias mollitia sit voluptates eum itaque, illum suscipit quis fuga quaerat.</p>
+        </div>
+
+        <!--   T  A  R  J  E  T  A  S   -->
+        <div class="row pt-4">
+          
+          <div class="col-lg-4">
+            <div class="card bg-dark my-3">
+              <div class="card-body">
+                <small class="text-primary fw-bold">Gratis</small>
+                <h2 class="fw-bold mb-4">Gratis</h2>
+                <p class="text-muted mb-3">El plan perfecto para estudiantes que desean crear su app</p>
+                <ul class="list-unstyled mb-0">
+                  <li class="text-muted mb-2"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                  <li class="text-muted mb-2"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                  <li class="text-muted"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                </ul>
+              </div>
+              <div class="card-boton pb-4 mx-3">
+                <a href="#" class="btn btn-primary w-100 shadow">Agenda una demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card bg-dark my-3">
+              <div class="card-body">
+                <small class="text-primary fw-bold">7 días gratis</small>
+                <h2 class="fw-bold mb-4">Starter</h2>
+                <p class="text-muted mb-3">Ideal para pequeñas empresas que quieren comenzar a vender en linea</p>
+                <ul class="list-unstyled mb-0">
+                  <li class="text-muted mb-2"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                  <li class="text-muted mb-2"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                  <li class="text-muted"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                </ul>
+              </div>
+              <div class="card-boton pb-4 mx-3">
+                <a href="#" class="btn btn-primary w-100 shadow">Agenda una demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card bg-dark my-3">
+              <div class="card-body">
+                <small class="text-primary fw-bold">7 días gratis</small>
+                <h2 class="fw-bold mb-4">Pro</h2>
+                <p class="text-muted mb-3">Enfocado para empresas grandes con alto volumen de ventas</p>
+                <ul class="list-unstyled mb-0">
+                  <li class="text-muted mb-2"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                  <li class="text-muted mb-2"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                  <li class="text-muted"><i class="icon ion-md-checkmark lead text-primary me-3"></i>Lorem ipsum dolor</li>
+                </ul>
+              </div>
+              <div class="card-boton pb-4 mx-3">
+                <a href="#" class="btn btn-primary w-100 shadow">Agenda una demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!--    S  E  R  V  I  C  I  O  S   --> 
+    <section class="bg-image d-flex py-5">
+      <div class="container align-self-center">
+        <div class="w-75 text-center mx-auto mb-5"><!-- mx-auto - para que tenga un margen auto a los lados y se centre -->
+          <h2>Los servicios de nuestra <span class="text-primary fw-bold">agencia digital</span></h2>
+          <p class="lead text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quidem alias mollitia sit voluptates eum itaque, illum suscipit quis fuga quaerat.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card bg-dark-x my-3">
+              <div class="card-body"><!-- para que tenga cuerpo la tarjeta-->
+                <div class="icon-container d-flex bg-primary rounded-circle mb-3">
+                  <i class="icon ion-md-pie lead align-self-center mx-auto"></i><!-- pie - porque es una grafica, align-self-center - centrado verticalmente, centrado horizontalmente -->
+                </div>
+                <h5 class="fw-bold">Diseño Web</h5>
+                <small class="d-block text-muted mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quidem alias mollitia sit voluptates eum itaque, illum suscipit quis fuga quaerat.</small>
+                <a href="#" class="text-primary fw-bold">Conoce más<i class="icon ion-md-arrow-forward align-middle text-primary ms-2"></i></a><!-- align middle - para que este centrado verticalmente -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-dark-x my-3">
+              <div class="card-body"><!-- para que tenga cuerpo la tarjeta-->
+                <div class="icon-container d-flex bg-primary rounded-circle mb-3">
+                  <i class="icon ion-md-analytics lead align-self-center mx-auto"></i><!-- pie - porque es una grafica, align-self-center - centrado verticalmente, centrado horizontalmente -->
+                </div>
+                <h5 class="fw-bold">Google Analytics</h5>
+                <small class="d-block text-muted mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quidem alias mollitia sit voluptates eum itaque, illum suscipit quis fuga quaerat.</small>
+                <a href="#" class="text-primary fw-bold">Conoce más<i class="icon ion-md-arrow-forward align-middle text-primary ms-2"></i></a><!-- align middle - para que este centrado verticalmente -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-dark-x my-3">
+              <div class="card-body"><!-- para que tenga cuerpo la tarjeta-->
+                <div class="icon-container d-flex bg-primary rounded-circle mb-3">
+                  <i class="icon ion-md-mail lead align-self-center mx-auto"></i><!-- pie - porque es una grafica, align-self-center - centrado verticalmente, centrado horizontalmente -->
+                </div>
+                <h5 class="fw-bold">Email Marketing</h5>
+                <small class="d-block text-muted mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quidem alias mollitia sit voluptates eum itaque, illum suscipit quis fuga quaerat.</small>
+                <a href="#" class="fw-bold">Conoce más<i class="icon ion-md-arrow align-middle text-primary ms-2"></i></a><!-- align middle - para que este centrado verticalmente -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--      B  L  O  G      -->
+    <section class="bg-image-x d-flex py-5">
+      <div class="container align-self-center">
+        <div class="w-75 text-center mx-auto mb-5"><!-- mx-auto - para que tenga un margen auto a los lados y se centre -->
+          <h2>Los mejores artículos <span class="text-primary fw-bold">de la industria</span></h2>
+          <p class="lead text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quidem alias mollitia sit voluptates eum itaque, illum suscipit quis fuga quaerat.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="#">
+              <div class="card bg-dark border-0 my-3">
+                <div class="card-header p-0">
+                  <img src="images/blog-01.jpg" class="img-fluid rouder-top"> <!-- rouder-top - clase para redondear las image-->
+                </div>
+                <div class="card-body">
+                  <small class="text-light d-block mb-2"><i class="icon ion-md-calendar lead align-self-center me-2"></i>11 de Junio de 2020</small>
+                  <h6 class="text-light mb-0 fw-bold">UI Designers meetup en CMDX</h6>
+                  <small class="text-muted d-block mb-3">Publicado por Pablo Juárez</small>
+                  <div>
+                    <small class="text-light me-3"><i class="icon ion-md-calendar text-primary me-1"></i> 220</small>
+                    <small class="text-light me-3"><i class="icon ion-md-chatboxes me-1"></i> 25</small>
+                    <small class="text-light me-3"><i class="icon ion-md-share me-1"></i> 10</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#">
+              <div class="card bg-dark border-0 my-3">
+                <div class="card-header p-0">
+                  <img src="images/blog-02.jpg" class="img-fluid rouder-top"> <!-- rouder-top - clase para redondear las image-->
+                </div>
+                <div class="card-body">
+                  <small class="text-light d-block mb-2"><i class="icon ion-md-calendar lead align-self-center me-2"></i>11 de Junio de 2020</small>
+                  <h6 class="text-light mb-0 fw-bold">UI Designers meetup en CMDX</h6>
+                  <small class="text-muted d-block mb-3">Publicado por Pablo Juárez</small>
+                  <div>
+                    <small class="text-light me-3"><i class="icon ion-md-calendar text-primary me-1"></i> 180</small>
+                    <small class="text-light me-3"><i class="icon ion-md-chatboxes me-1"></i> 30</small>
+                    <small class="text-light me-3"><i class="icon ion-md-share me-1"></i> 5</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#">
+              <div class="card bg-dark border-0 my-3">
+                <div class="card-header p-0">
+                  <img src="images/blog-03.jpg" class="img-fluid rouder-top"> <!-- rouder-top - clase para redondear las image-->
+                </div>
+                <div class="card-body">
+                  <small class="text-light d-block mb-2"><i class="icon ion-md-calendar lead align-self-center me-2"></i>11 de Junio de 2020</small>
+                  <h6 class="text-light mb-0 fw-bold">UI Designers meetup en CMDX</h6>
+                  <small class="text-muted d-block mb-3">Publicado por Pablo Juárez</small>
+                  <div>
+                    <small class="text-light me-3"><i class="icon ion-md-calendar text-primary me-1"></i> 320</small>
+                    <small class="text-light me-3"><i class="icon ion-md-chatboxes me-1"></i> 40</small>
+                    <small class="text-light me-3"><i class="icon ion-md-share me-1"></i> 15</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--      F O R M U L A R I O  C O N T A C T O     Y    E L   F O O T E R      -->
+    <!--     F O R M U L A R I O  C O N T A C T O     -->
+    <section class="bg-image-xx d-flex py-5">
+      <div class="container align-self-center">
+        <div class="card bg-dark-x shadow">
+          <div class="card-body p-5">
+            <h3 class="fw-bold">Contáctanos para comenzar tu proyecto</h3>
+            <p class="text- mb-4">Tienes una idea que deseas llevar a la realidad, es momento de empezar tu proyecto y lograr los mejores resultados.</p>
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-3 my-3">
+                  <input type="text" class="form-control shadow" placeholder="Nombre">
+                </div>
+                <div class="col-12 col-md-3 my-3">
+                  <input type="text" class="form-control shadow" placeholder="Email">
+                </div>
+                <div class="col-12 col-md-3 my-3">
+                  <input type="text" class="form-control shadow" placeholder="Teléfono">
+                </div>
+                <div class="col-12 col-md-3 my-3">
+                  <button type="submit" class="btn btn-primary w-100 shadow">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--     F O O T E R     -->
+    <footer class="bg-dark-x py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="mb-0">Creado por <a href="https://templune.com" class="fw-bold text-primary">Templune</a>. <small>Derechos reservados 2022</small></p>
+          </div>
+          <div class="col-lg-6 text-end"><!-- text-end (text-right) - para que el texto este alineado a la derecha -->
+            <ul class="list-inline mb-0s">
+              <li class="list-inline-item me-3"><i class="icon ion-logo-instagram lead"></i></li>
+              <li class="list-inline-item me-3"><i class="icon ion-logo-linkedin lead"></i></li>
+              <li class="list-inline-item"><i class="icon ion-logo-facebook lead"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
